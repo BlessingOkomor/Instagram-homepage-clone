@@ -1,0 +1,286 @@
+body {
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#main {
+  display: flex;
+}
+.image img {
+  width: 145%;
+}
+.image {
+  width: 50%;
+}
+.right {
+  width: 50%;
+}
+.form-part {
+  border-style: groove;
+  border-radius: 2px;
+  width: 55%;
+  flex-flow: row wrap-reverse;
+  justify-content: center;
+  margin-left: 35px;
+  margin-top: 30px;
+  text-align: center;
+  padding: 2px;
+}
+h1 {
+  font-style: italic;
+  font-family: "Lucida Sans";
+  padding: 20px;
+}
+input {
+  width: 80%;
+  padding: 10px;
+  margin: 3px;
+  background-color: #fdf7f7;
+  border: groove;
+  border-radius: 3px;
+}
+.btn {
+  width: 86%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #5aa7ff;
+  border: none;
+  color: #fff;
+  margin-top: 10px;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  margin: 1px;
+}
+.first-line {
+  flex-grow: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  flex-grow: 1;
+  font-size: 14px;
+  color: gray;
+}
+.second-line {
+  flex-grow: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line {
+  width: 100%;
+  border: 1px solid grey;
+}
+.facebook-login {
+  display: flex;
+  justify-content: center;
+}
+.icon i {
+  color: #040467;
+  width: 30px;
+}
+.fbbtn a {
+  color: #040467;
+  border: none;
+  background-color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+#forgot-password {
+  font-size: 12px;
+  margin: 20px;
+}
+#forgot-password a {
+  text-decoration: none;
+  color: #040467;
+}
+.sign-up {
+  width: 49%;
+  border: groove;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 35px;
+  padding: 20px;
+  font-size: 14px;
+  border-radius: 2px;
+}
+.sign-up a {
+  color: #3f98fe;
+  text-decoration: none;
+  font-weight: bold;
+}
+.app {
+  text-align: center;
+  padding: 5px;
+  border: 2px solid #fff;
+  width: 54%;
+  margin-left: 35px;
+}
+.app p {
+  font-size: 14px;
+}
+.app img {
+  width: 40%;
+  height: 40px;
+}
+footer ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 10px;
+  width: 100%;
+  justify-content: center;
+}
+footer li {
+  font-size: 12px;
+}
+footer a {
+  text-decoration: none;
+  color: grey;
+  display: block;
+  padding: 0 10px;
+}
+.copyright {
+  justify-content: center;
+  display: flex;
+}
+#language {
+  border: none;
+  font-size: 12px;
+  color: grey;
+  width: 65px;
+}
+.copyright span {
+  font-size: 12px;
+  color: grey;
+  margin-left: 10px;
+}
+@media only screen and (max-width: 480px) {
+  /* CSS apply on width between 0 and 480px*/
+  .image {
+    display: none;
+  }
+  .right {
+    width: 100%;
+    margin-top: 30px;
+    margin-right: 50px;
+  }
+  .form-part {
+    border-style: none;
+    width: 100%;
+  }
+  h1 {
+    font-size: 50px;
+    margin-bottom: 60px;
+  }
+  input {
+    width: 80%;
+    padding: 15px;
+    background-color: #fdf7f7;
+    border: groove;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .btn {
+    width: 88%;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  .sign-up {
+    border-style: none;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+  .app {
+    display: none;
+  }
+  footer ul {
+    display: none;
+  }
+  .copyright {
+    display: none;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  /* CSS apply on width between 481px and 768px */
+  .image {
+    display: none;
+  }
+  #main {
+    width: 100%;
+    margin: 0 60px 0 60px;
+  }
+  .right {
+    width: 100%;
+  }
+  .form-part {
+    width: 70%;
+    border: none;
+  }
+  .sign-up {
+    width: 65%;
+    border: none;
+  }
+  .app {
+    width: 70%;
+  }
+  .app img {
+    width: 40%;
+    height: 50px;
+  }
+  footer {
+    text-align: center;
+    font-size: 20px;
+    margin: 30px 40px 0 30px;
+  }
+  footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    padding: 10px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* CSS apply on width between 769px and 1024px */
+  .image {
+    display: none;
+  }
+  #main {
+    width: 100%;
+    margin: 0 60px 0 60px;
+  }
+  .right {
+    width: 100%;
+  }
+  .form-part {
+    width: 70%;
+  }
+  .sign-up {
+    width: 66%;
+  }
+  .app {
+    width: 70%;
+  }
+  .app img {
+    width: 40%;
+    height: 50px;
+  }
+  footer {
+    text-align: center;
+    font-size: 20px;
+    margin: 30px 40px 0 30px;
+  }
+  footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    padding: 10px;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 1440px) {
+  /* CSS apply on width between 1024px and 1440px */
+}
